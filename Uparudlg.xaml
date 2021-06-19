@@ -1,0 +1,106 @@
+﻿<Window x:Class="Termproject.Uparudlg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Termproject"
+        mc:Ignorable="d"
+        Title="우파루 소환" Height="429.001" Width="400">
+    <Border Padding="20" Margin="10,10,10,0" Height="360" VerticalAlignment="Top">
+        <DockPanel  >
+            <StackPanel Orientation="Vertical" Margin="0,0,0,-34">
+                <TextBlock Text="우파루 정보를 입력하시오"
+                           FontSize="20"
+                           HorizontalAlignment="Center"/>
+                <TextBlock Text="이름"/>
+                <TextBox x:Name="Namedlg" Padding="2"/>
+                <TextBlock Text="소환시간" Margin=" 0, 10, 0, 0"/>
+                <TextBox x:Name="Timedlg" Padding="2"/>
+                <TextBlock Text="서식지" Margin=" 0, 10, 0, 0"/>
+
+                <UniformGrid Rows="1" >
+
+                    <ComboBox x:Name="Type1dlg" Padding="5"  Margin="10">
+                        <ComboBoxItem Content=""/>
+                        <ComboBoxItem>숲</ComboBoxItem>
+                        <ComboBoxItem>땅</ComboBoxItem>
+                        <ComboBoxItem>불</ComboBoxItem>
+                        <ComboBoxItem>얼음</ComboBoxItem>
+                        <ComboBoxItem>천둥</ComboBoxItem>
+                        <ComboBoxItem>물</ComboBoxItem>
+                        <ComboBoxItem>바람</ComboBoxItem>
+                        <ComboBoxItem>매직</ComboBoxItem>
+                        <ComboBoxItem>슈거</ComboBoxItem>
+
+                    </ComboBox>
+
+                    <ComboBox x:Name="Type2dlg" Padding="5"  Margin="10">
+                        <ComboBoxItem Content=""/>
+                        <ComboBoxItem>숲</ComboBoxItem>
+                        <ComboBoxItem>땅</ComboBoxItem>
+                        <ComboBoxItem>불</ComboBoxItem>
+                        <ComboBoxItem>얼음</ComboBoxItem>
+                        <ComboBoxItem>천둥</ComboBoxItem>
+                        <ComboBoxItem>물</ComboBoxItem>
+                        <ComboBoxItem>바람</ComboBoxItem>
+                        <ComboBoxItem>매직</ComboBoxItem>
+                        <ComboBoxItem>슈거</ComboBoxItem>
+
+                    </ComboBox>
+
+                    <ComboBox x:Name="Type3dlg" Padding="5"  Margin="10">
+                        <ComboBoxItem Content=""/>
+                        <ComboBoxItem>숲</ComboBoxItem>
+                        <ComboBoxItem>땅</ComboBoxItem>
+                        <ComboBoxItem>불</ComboBoxItem>
+                        <ComboBoxItem>얼음</ComboBoxItem>
+                        <ComboBoxItem>천둥</ComboBoxItem>
+                        <ComboBoxItem>물</ComboBoxItem>
+                        <ComboBoxItem>바람</ComboBoxItem>
+                        <ComboBoxItem>매직</ComboBoxItem>
+                        <ComboBoxItem>슈거</ComboBoxItem>
+
+                    </ComboBox>
+
+
+                </UniformGrid>
+
+                <UniformGrid Rows="3" >
+                    <TextBlock Text="좌측조합 우파루"/>
+                    <TextBox x:Name="Cbn1dlg" Padding="2" Margin="3"/>
+                    <TextBlock Text="우측조합 우파루" />
+                    <TextBox x:Name="Cbn2dlg" Padding="2" Margin="3"/>
+                    <TextBlock Text="상점 가격" />
+
+                    <UniformGrid Rows="1">
+
+                        <ComboBox x:Name="Whatdlg" Padding="2"  Margin="3">
+
+                            <ComboBoxItem>마나볼</ComboBoxItem>
+                            <ComboBoxItem>보석</ComboBoxItem>
+                        </ComboBox>
+                        <TextBox x:Name="Moneydlg" Padding="2" Margin="3"/>
+                    </UniformGrid>
+                    
+                    
+                </UniformGrid>
+
+
+                <TextBlock Text="이미지" Margin=" 0, 10, 0, 0"/>
+                <TextBox x:Name="Imagedlg" Padding="2"/>
+                <UniformGrid Rows="1">
+
+                    <Button Content="소환" Margin="10" Click="OnOK"/>
+                    <Button Content="뒤로가기" Margin="10" Click="OnCancel"/>
+
+                </UniformGrid>
+
+
+
+            </StackPanel>
+
+
+        </DockPanel>
+
+    </Border>
+</Window>

@@ -1,0 +1,17 @@
+C:\Users\종욱\source\repos\Termproject\obj\Debug\Termproject.csprojAssemblyReference.cache
+C:\Users\종욱\source\repos\Termproject\obj\Debug\MainWindow.g.cs
+C:\Users\종욱\source\repos\Termproject\obj\Debug\App.g.cs
+C:\Users\종욱\source\repos\Termproject\obj\Debug\Termproject_MarkupCompile.cache
+C:\Users\종욱\source\repos\Termproject\obj\Debug\Termproject_MarkupCompile.lref
+C:\Users\종욱\source\repos\Termproject\bin\Debug\Termproject.exe.config
+C:\Users\종욱\source\repos\Termproject\bin\Debug\Termproject.exe
+C:\Users\종욱\source\repos\Termproject\bin\Debug\Termproject.pdb
+C:\Users\종욱\source\repos\Termproject\obj\Debug\MainWindow.baml
+C:\Users\종욱\source\repos\Termproject\obj\Debug\Termproject.g.resources
+C:\Users\종욱\source\repos\Termproject\obj\Debug\Termproject.Properties.Resources.resources
+C:\Users\종욱\source\repos\Termproject\obj\Debug\Termproject.csproj.GenerateResource.cache
+C:\Users\종욱\source\repos\Termproject\obj\Debug\Termproject.csproj.CoreCompileInputs.cache
+C:\Users\종욱\source\repos\Termproject\obj\Debug\Termproject.exe
+C:\Users\종욱\source\repos\Termproject\obj\Debug\Termproject.pdb
+C:\Users\종욱\source\repos\Termproject\obj\Debug\Uparudlg.g.cs
+C:\Users\종욱\source\repos\Termproject\obj\Debug\Uparudlg.baml

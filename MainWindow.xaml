@@ -1,0 +1,61 @@
+﻿<Window x:Class="Termproject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Termproject"
+        mc:Ignorable="d"
+        Title="우파루 마운틴" Height="450" Width="1000">
+    <Border Padding="20" Background="#FFB4E8C7" Margin="0,0,0,-54">
+        
+        <DockPanel>
+
+            <StackPanel >
+                <Image x:Name="image" Margin="0,0,20,-20" Height="340" Width="300"/>
+                <UniformGrid>
+                    <Button Content="우파루 서식지 이동"
+                    
+                    Margin="0,10,20,0"
+                    Click="OnlovingAdd"/>
+                    <Button Content="우파루 동굴 이동"
+                    
+                   Margin="0,10,20,0"
+                    Click="OnlovingCancel"/>
+
+                    <Button Content="우파루 소환"
+                    
+                    Margin="0,10,20,0"
+                    Click="OnAdd"/>
+                    <Button Content="우파루 먹이주기"
+                    
+                    Margin="0,10,20,0"
+                    Click="OnFood"/>
+
+                </UniformGrid>
+                             
+                
+
+            </StackPanel>
+
+            <UniformGrid DockPanel.Dock="Right" Columns="1">
+                <TextBlock Text="우파루 동굴"   Margin="0,5,10,0"  Background="#FFE9ECA7"/>
+                <DataGrid 
+                x:Name="MyGrid"
+                DockPanel.Dock="Top"  Margin="0,-60,10,00" 
+                GotFocus="OnFocus"    SelectionChanged="OnChanged"/>
+
+                <TextBlock Text="우파루 서식지" Margin="0,25,10,0"  Background="#FFE9ECA7"/>
+                <DataGrid 
+                x:Name="loveGrid"
+                      GotFocus="OnFocuslove"
+                 Margin="0,-40,10,-20" SelectionChanged="OnChanged"/>
+
+                <TextBlock Text=""/>
+                
+            </UniformGrid>
+           
+        </DockPanel>
+
+    </Border>
+
+</Window>
